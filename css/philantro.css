@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+.philantro-widget{
+    border: 1px dotted #c6c6c6;
+    border-radius: 2px;
+    font-family: sans-serif;
+    background-color: #fff;
+}
+.philantro-widget .philantro-head-section{
+    border-bottom: 1px dotted #c6c6c6;
+    padding: 25px;
+}
+.philantro-widget .philantro-head{
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+}
+.philantro-widget p{
+    font-size: 14px !important;
+    color: #727272 !important;
+    margin: 0 !important;
+}
+.philantro-widget .philantro-settings-container{
+    display: table;
+    width: 100%;
+    position: relative;
+}
+.philantro-widget .philantro-label{
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+}
+.philantro-widget .philantro-secondary-settings-container{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px dotted #c6c6c6;
+    padding-top: 30px;
+
+}
+.philantro-widget .philantro-secondary-settings-container .philantro-settings {
+    width: calc(50% - 10px);
+}
+.philantro-widget .right-panel{
+    width: 330px;
+    padding: 25px;
+    display: table-cell;
+    box-sizing: border-box;
+    border-left: 1px dotted #c6c6c6;
+}
+.philantro-widget .left-panel{
+    padding: 25px;
+    display: table-cell;
+    width: auto;
+    box-sizing: border-box;
+}
+.philantro-widget input[type="number"],
+.philantro-widget input[type="text"]{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    padding: 5px;
+    text-indent: 5px;
+    margin-top: 25px;
+}
+.philantro-widget .philantro-footer{;
+    padding: 20px 25px;
+    background-color: #f1f3f6;
+    font-size: 13px;
+    color: #727272;
+}
+.notice{
+    display: none !important;
+}
+a#philantro-logo {
+    display: inline-block;
+}
+span.logo-reg {
+    color: #000000;
+}
+span.logo-reg {
+    color: #afafaf;
+    position: absolute;
+    top: 0;
+}
+span.logo-reg:before {
+    content: '\00ae';
+}
+.plugin-header{
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 1px dashed #c4c4c4;
+}
+h1 + p.muted{
+    margin-top: 15px;
+}
+b + p.muted{
+    margin-top: 20px;
+}
+code + p.muted{
+    margin-top: 30px;
+}
+span.example-noun:before{
+    content: 'Example'
+}
+#left-panel{
+    position: relative;
+    padding: 30px 30px 30px 20px;
+    font-size: 14px;
+}
+#philantro-notification{
+    padding: 30px;
+    background-color: #e4f6ff;
+    border-left: 10px solid #0073aa;
+    margin-bottom: 30px;
+    color: #346d88;
+}
+#left-panel b{
+    display: block;
+    font-size: 15px;
+}
+h1, #left-panel b{
+    font-family: 'Poppins', sans-serif;
+}
+code{
+    display: block;
+    color: #fff;
+    white-space: nowrap;
+    border-radius: 4px;
+    padding: 25px;
+    background-color: #222;
+    margin-top: 30px;
+}
+span.highlighted{
+    display: inline-block;
+    color: #dccb54;
+    padding: 5px 10px;
+    background-color: #383838;
+    border-radius: 5px;
+}
+div.example{
+    margin-top: 30px;
+    padding: 30px;
+    border: 1px dashed #999;
+    border-radius: 4px;
+    position: relative;
+}
+a.register-button{
+    text-decoration: none;
+    border: 2px solid #0073aa;
+    border-radius: 40px;
+    padding: 13px 30px;
+    font-weight: bold;
+    margin-top: 30px !important;
+    display: inline-block !important;
+}
+.large-input{
+    height: 52px;
+    line-height: 52px;
+    font-size: 15px;
+    width: 140px;
+}
+.first-pitch{
+    padding: 0 0 40px 0;
+    border-bottom: 5px solid #0073aa;
+    margin-bottom: 40px;
+    color: #000 !important;
+}
+.button-primary-philantro{
+    border-radius: 4px;
+    border: none;
+    background-color: #0073aa;
+    color: #fff;
+    height: 52px;
+    padding: 0 20px;
+    line-height: 30px;
+    width: 100%;
+    text-decoration: none;
+}
+.button-primary-philantro:hover{
+    color:#fff;
+    text-decoration: none;
+}
+#first-panel{
+    display:inline-block;
+    width:550px;
+    vertical-align: top;
+}
+b + p.mild{
+    margin-top: 10px;
+}
+.muted, .mild{
+    color:#767676;
+    font-size: 14px;
+    margin:0;
+    padding:0;
+}
+.muted + a{
+    display: block;
+    margin-top: 15px;
+}
+#v-divide{
+    position: absolute;
+    left:570px;
+    top:0;
+    bottom:0;
+    width:1px;
+    border-left:1px solid #e7e7e7;
+}
+#second-panel{
+    display: inline-block;
+    vertical-align: top;
+    margin-left:40px;
+    min-width:200px;
+    max-width: 200px;
+}
+#no-EIN-notice{
+    padding: 30px;
+    line-height: 1.5em;
+    background-color: #0073aa;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    display: none;
+    margin-left: -20px;
+}
+table{
+    width: 100%;
+}
+*:focus,
+a:focus,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+h1{
+    margin:0;
+    padding:0;
+    font-weight: 600;
+    font-size: 20px;
+}
+#new-notice h1{
+    font-size: 30px;
+    color: #333;
+    margin:10px 0 20px 0;
+    padding:0;
+    line-height: 1em;
+}
+#side-panel{
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px -5px 5px #222;
+    width: 650px;
+    top: 0;
+    z-index: 2;
+    right: 0px;
+    bottom: 0;
+}
